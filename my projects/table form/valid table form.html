@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>table form</title>
+
+	<style>
+		table{
+			border: 1px solid black;
+			width: 100%;
+		}
+
+		th,tr,td{
+			border: 1px solid black;
+			text-align: center;
+		}
+
+		button{
+			margin-left: 40%;
+			background-color: lightgreen;
+			border-radius: 6px;
+			width: 10%;
+			height: 5%;
+			color: white;
+			font-size: 17px;
+		}
+
+		tr:nth-child(even){
+			background-color: lightgray;
+			
+		}
+
+		.a{
+			width: 70%;
+			background-color: lightgray;
+			margin-left: 170px;
+		}
+		.b{
+			margin-top: 1%;
+			margin-left: 5%;
+			position: absolute;
+		}
+		.c{
+			padding-top: 2%;
+			margin-left: 50%;
+		}
+		.d{
+			margin-top: 1%;
+			margin-left: 5%;
+			position: absolute;
+		}
+		.e{
+			padding-top: 2%;
+			margin-left: 50%;
+		}
+		.f{
+			margin-top: 1%;
+			margin-left: 5%;
+			position: absolute;
+		}
+		.g{
+			padding-top: 2%;
+			margin-left: 50%;
+		}
+		.h{
+			mmargin-top: 1%;
+			margin-left: 5%;
+			position: absolute;
+		}
+		.i{
+			padding-top: 2%;
+			margin-left: 50%;
+		}
+		.j{
+			margin-top: 3%;
+		}
+		.k{
+			width: 18%;
+			height: 15%;
+			margin-left: 80%;
+			padding-top: .6%;
+			padding-left: 2%;
+			background-color: lightgray;
+		}
+		.l{
+			width: 7%;
+			margin-left: 92%;
+			margin-top: 10px;
+		}
+	</style>
+	
+</head>
+<body>
+	
+
+			<div class="a">
+<form name="h1">
+				<div class="b">Name: <input type="text" id="a" value="" required></div>
+			<div class="c">Father name: <input type="text" id="a1" value="" required></div>
+
+			<br><br>
+			<div class="d">D.O.B: <input type="date"id="a2" value="" required></div>
+			<div class="e">Phone: <input type="number" id="a3" value="" required></div>
+
+			<br><br>
+
+			<div class="f">CNIC: <input type="number" id="a4" value="" required></div>
+			<div class="g">Address: <input type="text"  id="a5" value="" required></div>
+
+			<br><br>
+			<div class="h">Qualification: <input type="text" id="a6" value="" required></div>
+			<div class="i">G.mail: <input type="email" id="a7" value="" required></div>
+		</form>
+
+			<br><br>
+				 <button onclick="hfz()">Submit</button>
+			</div>
+			
+
+
+
+	<div class="j">
+		<div class="k">Search: <input type="search" id="input" placeholder="search name here" onkeyup="srch()"></div>
+	<div id="z">
+		<table id="newtable">
+		<tr>
+			<th>Name</th>
+			<th>Father name</th>
+			<th>D.O.B</th>
+			<th>PHONE</th>
+			<th>CNIC</th>
+			<th>ADDRESS</th>
+			<th>Qualification</th>
+			<th>GMAil</th>
+
+		</tr>
+		
+	</table>
+</div>
+
+</div>
+<button class="l" onclick="prnt()">Print Me</button>
+
+<script type="text/javascript">
+	var ip1 = document.getElementById('a');
+
+		function hfz(){
+			if (ip1.value == "") {
+				ip1.style.borderColor='red';
+			}
+
+			let nam = document.forms['h1']['a'].value;
+			if (nam =="") {
+				alert('Name must field');
+				return false;
+			}
+
+			let fnam = document.forms['h1']['a1'].value;
+			if (fnam =="") {
+				alert('Father must field');
+				return false;
+			}
+			let date = document.forms['h1']['a2'].value;
+			if (date =="") {
+				alert('Date of birth must field');
+				return false;
+			}
+			let phon = document.forms['h1']['a3'].value;
+			if (phon =="") {
+				alert('Phone Number must field');
+				return false;
+			}
+			let cni = document.forms['h1']['a4'].value;
+			if (cni =="") {
+				alert('CNIC must field');
+				return false;
+			}
+			let addre = document.forms['h1']['a5'].value;
+			if (addre =="") {
+				alert('Address must field');
+				return false;
+			}
+			let qua = document.forms['h1']['a6'].value;
+			if (qua =="") {
+				alert('Qualification must field');
+				return false;
+			}
+			let gmai = document.forms['h1']['a7'].value;
+			if ( gmai == "") {
+				alert('Gmail must field');
+				return false;
+			}
+
+
+			var name=document.getElementById('a').value;
+			var father=document.getElementById('a1').value;
+			var dob=document.getElementById('a2').value;
+			var phone=document.getElementById('a3').value;
+			var cnic=document.getElementById('a4').value;
+			var addres=document.getElementById('a5').value;
+			var qual=document.getElementById('a6').value;
+			var gmail=document.getElementById('a7').value;
+
+			var table = document.getElementsByTagName("table")[0];
+
+
+			var newRow = table.insertRow(table.rows.length);
+
+			var cel1 = newRow.insertCell(0);
+			var cel2 = newRow.insertCell(1);
+			var cel3 = newRow.insertCell(2);
+			var cel4 = newRow.insertCell(3);
+			var cel5 = newRow.insertCell(4);
+			var cel6 = newRow.insertCell(5);
+			var cel7 = newRow.insertCell(6);
+			var cel8 = newRow.insertCell(7);
+
+			cel1.innerHTML = name;
+			cel2.innerHTML = father;
+			cel3.innerHTML = dob;
+			cel4.innerHTML = phone;
+			cel5.innerHTML = cnic;
+			cel6.innerHTML = addres;
+			cel7.innerHTML = qual;
+			cel8.innerHTML = gmail;
+
+		}
+
+
+		function srch() {
+
+			var input ,filter, table, tr, td, i, txtValue;
+			input = document.getElementById('input');
+			filter = input.value.toUpperCase();
+			table = document.getElementById('newtable');
+			tr = table.getElementsByTagName('tr');
+
+			for( i=0; i<tr.length; i++){
+				td = tr[i].getElementsByTagName('td')[0];
+
+				if(td){
+					txtValue = td.textContect || td.innerText;
+					if(txtValue.toUpperCase().indexOf(filter)> -1){
+						tr[i].style.display ="";
+					} else{
+						tr[i].style.display="none"
+					}
+				}
+			}
+		}
+		function prnt() {
+			var prnt =document.getElementById('z').innerHTML;
+			var pp = document.body.innerHTML;
+			document.body.innerHTML=prnt;
+			window.print();
+		}
+	</script>
+</body>
+</html>
