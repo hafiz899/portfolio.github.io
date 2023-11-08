@@ -193,6 +193,7 @@ nav li:hover {
 .grid_item {
   display: grid;
   place-items: center;
+  padding-bottom:10px;
 }
 
 .card {
