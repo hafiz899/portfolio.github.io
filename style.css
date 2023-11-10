@@ -312,6 +312,10 @@ footer {
   #hero .container {
     flex-direction: column;
   }
+  .container .about{
+  font-size: 17px;
+  width: 90%;
+}
   .hero_image {
     display: grid;
     place-items: center;
@@ -331,6 +335,10 @@ footer {
     display: grid;
     place-items: center;
   }
+  .container .about{
+  font-size: 17px;
+  width: 90%;
+}
   #contact .container {
     height: 50vh;
   }
