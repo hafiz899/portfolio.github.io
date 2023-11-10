@@ -610,3 +610,574 @@ li{
 	font-size: 14px;
 	margin-left:80%;
 }
+
+
+
+
+@media (max-width: 1024px) {
+
+	button{
+  width: 20%;
+  height: 100%;
+  font-size: 18px;
+  border: 1px solid whitesmoke;
+  border-radius: 20px 0px 20px 10px ;
+  box-shadow: 10px 10px 15px 0px black;
+  transition: .3s linear;
+}
+.container{
+	width: 70%;
+	height: 165vh;
+	background: azure;
+	margin: auto;
+	border: 4px solid whitesmoke;
+	display: flex;
+}
+	.left-side .header {
+ height: 25vh;
+
+}
+.left-side .header .img{
+	width: 60%;
+	height: 30vh;
+	animation: imag 1s linear ;
+}
+
+img{
+	width: 95%;
+    margin: 17% 0 0 3%;
+}
+
+
+.contect-section{
+	margin-top: 20%;
+	height: 30vh;
+}
+
+
+
+.right-side .header-right {
+ padding: 20px 0 0 10px;
+}
+
+
+.about , .exp, .edu{
+	width: 100%;
+	padding: 20px 0 0 30px;
+}
+
+.about span ,.exp span , .edu span{
+	font-size: 25px;
+}
+.edu ul li{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.edu .place{
+	font-size: 20px;
+}
+.edu .date{
+	font-size: 14px;
+	margin-left:70%;
+}
+
+
+    }
+
+
+
+@media (max-width: 769px) {
+
+	button{
+  width: 20%;
+  height: 100%;
+  font-size: 17px;
+  border: 1px solid whitesmoke;
+  border-radius: 20px 0px 20px 10px ;
+  box-shadow: 10px 10px 15px 0px black;
+  transition: .3s linear;
+}
+.container{
+	width: 80%;
+	height: 165vh;
+	background: azure;
+	margin: auto;
+	border: 4px solid whitesmoke;
+	display: flex;
+}
+	.left-side .header {
+ height: 25vh;
+
+}
+.left-side .header .img{
+	width: 60%;
+	height: 30vh;
+	animation: imag 1s linear ;
+}
+
+img{
+	width: 95%;
+    margin: 30% 0 0 3%;
+}
+
+
+.contect-section{
+	margin-top: 30%;
+	height: 30vh;
+}
+
+.contect-section ul li span{
+	margin-left: 5px;
+	font-size: 14px;
+}
+.skill{
+	margin: 5% 0 0 0;
+}
+
+
+
+.right-side .header-right {
+ padding: 20px 0 0 10px;
+}
+
+
+.about , .exp, .edu{
+	width: 100%;
+	padding: 15px 0 0 30px;
+}
+
+.about span ,.exp span , .edu span{
+	font-size: 20px;
+}
+.edu ul li{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.edu .place{
+	font-size: 20px;
+}
+.edu .date{
+	font-size: 14px;
+	margin-left:70%;
+}
+
+
+    }
+
+
+
+@media (max-width: 425px) {
+
+	button{
+  width: 40%;
+  height: 100%;
+  font-size: 17px;
+  border: 1px solid whitesmoke;
+  border-radius: 20px 0px 20px 10px ;
+  box-shadow: 10px 10px 15px 0px black;
+  transition: .3s linear;
+}
+.container{
+	width: 100%;
+	height: 170vh;
+	background: azure;
+	margin: auto;
+	border: 4px solid whitesmoke;
+	display: flex;
+}
+.left-side{
+	width: 40%;
+	padding-bottom: 20px;
+}
+	.left-side .header {
+ height: 25vh;
+
+}
+.left-side .header .img{
+	width: 70%;
+	height: 27vh;
+	animation: imag 1s linear ;
+}
+
+img{
+	width: 95%;
+    margin: 50% 0 0 3%;
+}
+
+
+.contect-section{
+	margin-top: 25%;
+	height: 30vh;
+}
+.contect-section span{
+	margin: 0 0 0 10px;
+}
+.contect-section ul{
+	padding: 0 0 0 25px;
+}
+
+.contect-section ul li span{
+	margin-left: 3px;
+	font-size: 100%;
+}
+.contect-section ul li .mail{
+	font-size: 60%;
+	font-weight: bold;
+}
+
+
+
+
+
+.skill{
+	margin: 5% 0 0 0;
+}
+
+.skill span{
+	margin: 0 0 0 10px;
+	font-size: 25px;
+	color: white;
+
+}
+.skill .about-skill{
+	margin: 20px 0 0 0 ;
+}
+.skill .about-skill span{
+	margin: 0px 0 0 20px;
+}
+.about-skill .pro-bar{
+	margin: 0px 0 0 20px;
+}
+
+
+.lang{
+	margin-top:15%;
+}
+.lang span{
+	margin: 10px 0 0 20px;
+	font-size: 25px;
+
+
+}
+.lang .about-lang{
+	margin: 10px 0 0 0 ;
+}
+.lang .about-lang span{
+	margin: 0px 0 0 20px;
+	}
+.about-lang .pro-bar{
+		margin: 0px 0 0 20px;
+}
+
+
+
+
+.right-side{
+	width: 60%;
+	height: 100%;
+
+
+}
+ .right-side .header-right {
+ padding: 40px 0 0 10px;
+}
+.right-side .header-right .name{
+	font-size: 40px;
+	font-style: bold;
+
+}
+.right-side .header-right .name span{
+	font-size: 25px;
+
+}
+.about , .exp, .edu{
+	width: 100%;
+	padding: 15px 0 0 10px;
+}
+
+.about span ,.exp span , .edu span{
+	font-size: 25px;
+}
+.edu ul li{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.edu .place{
+	font-size: 15px;
+}
+.edu .date{
+	font-size: 13px;
+	margin-left:60%;
+}
+
+
+    }
+
+
+@media (max-width: 375px) {
+
+
+.container{
+	width: 100%;
+	height: 175vh;
+	background: azure;
+	margin: auto;
+	border: 4px solid whitesmoke;
+	display: flex;
+}
+.left-side{
+	width: 40%;
+	padding-bottom: 20px;
+}
+	.left-side .header {
+ height: 25vh;
+
+}
+.left-side .header .img{
+	width: 80%;
+	height: 25vh;
+	animation: imag 1s linear ;
+}
+
+img{
+	width: 95%;
+    margin: 35% 0 0 3%;
+}
+
+
+.contect-section{
+	margin-top: 30%;
+	height: 30vh;
+}
+.contect-section span{
+	margin: 0 0 0 10px;
+	font-size: 20px;
+}
+.contect-section ul{
+	padding: 0 0 0 25px;
+}
+
+.contect-section ul li span{
+	margin-left: 3px;
+	font-size: 14px;
+}
+.contect-section ul li .mail{
+	font-size: 50%;
+	font-weight: bold;
+}
+
+
+.skill{
+	margin: 25% 0 0 0;
+}
+
+.skill span{
+	margin: 0 0 0 10px;
+	font-size: 20px;
+
+}
+.skill .about-skill{
+	margin: 20px 0 0 0 ;
+}
+
+
+.lang{
+	margin-top:30%;
+}
+.lang span{
+	margin: 10px 0 0 10px;
+	font-size: 20px;
+
+
+}
+.lang .about-lang{
+	margin: 10px 0 0 0 ;
+}
+
+
+
+
+.right-side{
+	width: 60%;
+	height: 100%;
+
+
+}
+ .right-side .header-right {
+ padding: 50px 0 0 10px;
+}
+.right-side .header-right .name{
+	font-size: 35px;
+	font-style: bold;
+
+}
+.right-side .header-right .name span{
+	font-size: 20px;
+
+}
+.about , .exp, .edu{
+	width: 100%;
+	padding: 20px 0 0 5px;
+}
+
+.about span ,.exp span , .edu span{
+	font-size: 25px;
+
+}
+.edu ul{
+	padding: 0 0 0 25px;
+}
+.edu ul li{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.edu .place{
+	font-size: 15px;
+}
+.edu .date{
+	font-size: 13px;
+	margin-left:55%;
+}
+
+
+    }
+
+
+
+@media (max-width: 320px) {
+
+
+button{
+  width: 50%;
+}
+
+.container{
+	width: 100%;
+	height: 185vh;
+	background: azure;
+	margin: auto;
+	border: 4px solid whitesmoke;
+	display: flex;
+}
+.left-side{
+	width: 40%;
+	padding-bottom: 20px;
+}
+	.left-side .header {
+ height: 25vh;
+
+}
+.left-side .header .img{
+	width: 80%;
+	height: 25vh;
+	animation: imag 1s linear ;
+}
+
+img{
+	width: 95%;
+    margin: 60% 0 0 3%;
+}
+
+
+.contect-section{
+	margin-top: 30%;
+	height: 30vh;
+}
+.contect-section span{
+	margin: 0 0 0 10px;
+	font-size: 17px;
+}
+.contect-section ul{
+	padding: 0 0 0 25px;
+}
+
+.contect-section ul li span{
+	margin-left: 3px;
+	font-size: 12px;
+}
+ 
+.contect-section ul li .mail{
+	font-size: 30%;
+	font-weight: bold;
+}
+
+
+.skill{
+	margin: 30% 0 0 0;
+}
+
+.skill span{
+	margin: 0 0 0 10px;
+	font-size: 20px;
+
+}
+.skill .about-skill{
+	margin: 30px 0 0 0 ;
+}
+
+
+.lang{
+	margin-top:30%;
+}
+.lang span{
+	margin: 10px 0 0 10px;
+	font-size: 20px;
+
+
+}
+.lang .about-lang{
+	margin: 30px 0 0 0 ;
+}
+
+
+
+
+.right-side{
+	width: 60%;
+	height: 100%;
+
+
+}
+ .right-side .header-right {
+ padding: 70px 0 0 10px;
+}
+.right-side .header-right .name{
+	font-size: 25px;
+	font-style: bold;
+
+}
+.right-side .header-right .name span{
+	font-size: 15px;
+
+}
+.about , .exp, .edu{
+	width: 100%;
+	padding: 30px 0 0 5px;
+}
+
+.about span ,.exp span , .edu span{
+	font-size: 20px;
+
+}
+.edu ul{
+	padding: 0 0 0 20px;
+}
+.edu ul li{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.edu .place{
+	font-size: 15px;
+}
+.edu .date{
+	font-size: 13px;
+	margin-left:55%;
+}
+
+
+    }
